@@ -1,0 +1,44 @@
+2021-05-22 00:51:24,428 INFO    MainThread:451240 [internal.py:wandb_internal():91] W&B internal server running at pid: 451240, started at: 2021-05-22 00:51:24.428739
+2021-05-22 00:51:24,430 DEBUG   HandlerThread:451240 [handler.py:handle_request():121] handle_request: check_version
+2021-05-22 00:51:24,431 INFO    WriterThread:451240 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_005123-248ebgzp/run-248ebgzp.wandb
+2021-05-22 00:51:24,433 DEBUG   SenderThread:451240 [sender.py:send():176] send: header
+2021-05-22 00:51:24,433 DEBUG   SenderThread:451240 [sender.py:send_request():186] send_request: check_version
+2021-05-22 00:51:25,271 DEBUG   SenderThread:451240 [sender.py:send():176] send: run
+2021-05-22 00:51:25,274 DEBUG   SenderThread:451240 [git.py:repo():33] git repository is invalid
+2021-05-22 00:51:25,812 INFO    SenderThread:451240 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_005123-248ebgzp/files
+2021-05-22 00:51:25,812 INFO    SenderThread:451240 [sender.py:_start_run_threads():699] run started: 248ebgzp with start time 1621624883
+2021-05-22 00:51:25,813 DEBUG   SenderThread:451240 [sender.py:send():176] send: summary
+2021-05-22 00:51:25,813 DEBUG   HandlerThread:451240 [handler.py:handle_request():121] handle_request: run_start
+2021-05-22 00:51:25,816 INFO    SenderThread:451240 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-22 00:51:26,815 INFO    Thread-8  :451240 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_005123-248ebgzp/files/wandb-summary.json
+2021-05-22 00:51:28,388 DEBUG   HandlerThread:451240 [meta.py:__init__():39] meta init
+2021-05-22 00:51:28,388 DEBUG   HandlerThread:451240 [meta.py:__init__():53] meta init done
+2021-05-22 00:51:28,388 DEBUG   HandlerThread:451240 [meta.py:probe():210] probe
+2021-05-22 00:51:28,396 DEBUG   HandlerThread:451240 [git.py:repo():33] git repository is invalid
+2021-05-22 00:51:28,396 DEBUG   HandlerThread:451240 [meta.py:_save_code():89] save code
+2021-05-22 00:51:28,396 WARNING HandlerThread:451240 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-22 00:51:28,396 DEBUG   HandlerThread:451240 [meta.py:_save_pip():57] save pip
+2021-05-22 00:51:28,397 DEBUG   HandlerThread:451240 [meta.py:_save_pip():71] save pip done
+2021-05-22 00:51:28,397 DEBUG   HandlerThread:451240 [meta.py:_save_conda():78] save conda
+2021-05-22 00:51:28,816 INFO    Thread-8  :451240 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_005123-248ebgzp/files/requirements.txt
+2021-05-22 00:51:28,817 INFO    Thread-8  :451240 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_005123-248ebgzp/files/conda-environment.yaml
+2021-05-22 00:51:31,817 INFO    Thread-8  :451240 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_005123-248ebgzp/files/output.log
+2021-05-22 00:51:33,896 INFO    Thread-8  :451240 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_005123-248ebgzp/files/conda-environment.yaml
+2021-05-22 00:51:34,063 DEBUG   HandlerThread:451240 [meta.py:_save_conda():86] save conda done
+2021-05-22 00:51:34,064 DEBUG   HandlerThread:451240 [meta.py:probe():252] probe done
+2021-05-22 00:51:34,100 DEBUG   HandlerThread:451240 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 00:51:34,100 DEBUG   SenderThread:451240 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 00:51:34,660 DEBUG   SenderThread:451240 [sender.py:send():176] send: files
+2021-05-22 00:51:34,660 INFO    SenderThread:451240 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-22 00:51:34,893 INFO    Thread-8  :451240 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_005123-248ebgzp/files/wandb-metadata.json
+2021-05-22 00:51:36,157 INFO    Thread-11 :451240 [upload_job.py:push():133] Uploaded file /tmp/tmp59p37bg4wandb/dbtwmm3e-wandb-metadata.json
+2021-05-22 00:51:49,661 DEBUG   HandlerThread:451240 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 00:51:49,661 DEBUG   SenderThread:451240 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 00:51:56,844 DEBUG   SenderThread:451240 [sender.py:send():176] send: stats
+2021-05-22 00:52:05,110 DEBUG   HandlerThread:451240 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 00:52:05,110 DEBUG   SenderThread:451240 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 00:52:20,606 DEBUG   HandlerThread:451240 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 00:52:20,607 DEBUG   SenderThread:451240 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 00:52:27,051 DEBUG   SenderThread:451240 [sender.py:send():176] send: stats
+2021-05-22 00:52:36,080 DEBUG   HandlerThread:451240 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 00:52:36,080 DEBUG   SenderThread:451240 [sender.py:send_request():186] send_request: stop_status

@@ -1,0 +1,60 @@
+2021-05-22 08:44:58,224 INFO    MainThread:49151 [internal.py:wandb_internal():91] W&B internal server running at pid: 49151, started at: 2021-05-22 08:44:58.224355
+2021-05-22 08:44:58,225 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: check_version
+2021-05-22 08:44:58,226 INFO    WriterThread:49151 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_084453-3q04bcq8/run-3q04bcq8.wandb
+2021-05-22 08:44:58,228 DEBUG   SenderThread:49151 [sender.py:send():176] send: header
+2021-05-22 08:44:58,228 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: check_version
+2021-05-22 08:44:58,950 DEBUG   SenderThread:49151 [sender.py:send():176] send: run
+2021-05-22 08:44:58,952 DEBUG   SenderThread:49151 [git.py:repo():33] git repository is invalid
+2021-05-22 08:44:59,474 INFO    SenderThread:49151 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_084453-3q04bcq8/files
+2021-05-22 08:44:59,474 INFO    SenderThread:49151 [sender.py:_start_run_threads():699] run started: 3q04bcq8 with start time 1621653297
+2021-05-22 08:44:59,474 DEBUG   SenderThread:49151 [sender.py:send():176] send: summary
+2021-05-22 08:44:59,475 INFO    SenderThread:49151 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-22 08:44:59,475 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: run_start
+2021-05-22 08:45:00,442 DEBUG   HandlerThread:49151 [meta.py:__init__():39] meta init
+2021-05-22 08:45:00,442 DEBUG   HandlerThread:49151 [meta.py:__init__():53] meta init done
+2021-05-22 08:45:00,442 DEBUG   HandlerThread:49151 [meta.py:probe():210] probe
+2021-05-22 08:45:00,447 DEBUG   HandlerThread:49151 [git.py:repo():33] git repository is invalid
+2021-05-22 08:45:00,447 DEBUG   HandlerThread:49151 [meta.py:_save_code():89] save code
+2021-05-22 08:45:00,448 WARNING HandlerThread:49151 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-22 08:45:00,448 DEBUG   HandlerThread:49151 [meta.py:_save_pip():57] save pip
+2021-05-22 08:45:00,448 DEBUG   HandlerThread:49151 [meta.py:_save_pip():71] save pip done
+2021-05-22 08:45:00,448 DEBUG   HandlerThread:49151 [meta.py:_save_conda():78] save conda
+2021-05-22 08:45:00,477 INFO    Thread-8  :49151 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_084453-3q04bcq8/files/conda-environment.yaml
+2021-05-22 08:45:00,477 INFO    Thread-8  :49151 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_084453-3q04bcq8/files/requirements.txt
+2021-05-22 08:45:00,477 INFO    Thread-8  :49151 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_084453-3q04bcq8/files/wandb-summary.json
+2021-05-22 08:45:04,798 DEBUG   HandlerThread:49151 [meta.py:_save_conda():86] save conda done
+2021-05-22 08:45:04,799 DEBUG   HandlerThread:49151 [meta.py:probe():252] probe done
+2021-05-22 08:45:04,801 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 08:45:04,801 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 08:45:05,037 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-22 08:45:05,039 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: pause
+2021-05-22 08:45:05,039 INFO    HandlerThread:49151 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-22 08:45:05,300 DEBUG   SenderThread:49151 [sender.py:send():176] send: files
+2021-05-22 08:45:05,300 INFO    SenderThread:49151 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-22 08:45:05,301 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: log_artifact
+2021-05-22 08:45:05,478 INFO    Thread-8  :49151 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_084453-3q04bcq8/files/conda-environment.yaml
+2021-05-22 08:45:05,479 INFO    Thread-8  :49151 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_084453-3q04bcq8/files/output.log
+2021-05-22 08:45:05,479 INFO    Thread-8  :49151 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Car-Brands-Images-Clf/wandb/run-20210522_084453-3q04bcq8/files/wandb-metadata.json
+2021-05-22 08:45:06,807 INFO    Thread-11 :49151 [upload_job.py:push():133] Uploaded file /tmp/tmpii4j5wzdwandb/2c1xu9w3-wandb-metadata.json
+2021-05-22 08:45:08,412 INFO    Thread-13 :49151 [upload_job.py:push():91] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/05/469646dc558613c9ccec9ff378773b
+2021-05-22 08:45:10,697 DEBUG   SenderThread:49151 [sender.py:send():176] send: stats
+2021-05-22 08:45:20,301 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 08:45:20,302 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 08:45:35,797 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 08:45:35,797 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 08:45:51,306 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 08:45:51,306 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 08:45:55,966 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: resume
+2021-05-22 08:45:55,966 INFO    HandlerThread:49151 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-22 08:46:06,817 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 08:46:06,817 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 08:46:22,296 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 08:46:22,296 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 08:46:24,199 DEBUG   SenderThread:49151 [sender.py:send():176] send: stats
+2021-05-22 08:46:37,820 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 08:46:37,820 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 08:46:53,590 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 08:46:53,591 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: stop_status
+2021-05-22 08:46:54,436 DEBUG   SenderThread:49151 [sender.py:send():176] send: stats
+2021-05-22 08:47:09,295 DEBUG   HandlerThread:49151 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-22 08:47:09,295 DEBUG   SenderThread:49151 [sender.py:send_request():186] send_request: stop_status
